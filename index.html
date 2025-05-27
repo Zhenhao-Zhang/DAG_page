@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/figure/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>DAG</title>
+  <link rel="icon" type="image/x-icon" href="static/figure/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title"><span style="color: #f60505;">D</span><span style="color: #059ef6;">A</span><span style="color: #7905f6;">G</span>: Unleash the Potential of <span style="color: #f60505;">D</span>iffusion Model for Open-Vocabulary 3D <span style="color: #059ef6;">A</span>ffordance <span style="color: #7905f6;">G</span>rounding</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              
+                <span class="author-block">
+                  <a href="https://hq-king.github.io/" target="_blank">Hanqing Wang</a><sup>*+</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://zhenhao-zhang.github.io/" target="_blank">Zhenhao Zhang</a><sup>*</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://curmark.github.io/" target="_blank">Kaiyang Ji</a><sup>*</sup>,</span>
+                      <span class="author-block">
+                      <a href="https://mingyulau.github.io/" target="_blank">Mingyu Liu</a><sup></sup>,</span>
+                        <span class="author-block">
+                          <a href="https://github.com/WentiYin" target="_blank">Wenti Yin</a><sup></sup>,</span>
+                          <span class="author-block">
+                            <a href="https://orcid.org/0009-0000-0473-7796" target="_blank">Yuchao Chen</a><sup></sup>,</span>
+                          <span class="author-block">
+                            <a href="https://zhirui86.github.io/" target="_blank">Zhirui Liu</a><sup></sup>,</span>
+                            <span class="author-block">
+                            <a href="https://github.com/SherlockZhang666" target="_blank">Hangxing Zhang</a><sup></sup></span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Shanghai Artificial Intelligence Laboratory<br></span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>+</sup>Indicates Corresponding Author</small></span>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">HOI Image to 3D Affordance Grounding</h2>
+         <p>
+              <img src="static\figure\motivation.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              Text-to-Image Diffusion model can understand how people interact with objects. It has an awareness of affordance and can generate reasonable Human-Object Interaction (HOI) images (Left). Motivated by this, we would like to find a way to transfer this rich affordance knowledge into 3D affordance grounding (Right).
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+           3D object affordance grounding aims to predict the touchable regions on a 3d object, which is crucial for human-object interaction (HOI), embodied perception, and robot learning. Recent advances tackle this problem via learning through demonstration images. However, these methods fail to capture the general affordance knowledge within the image, leading to poor generalization. To address this issue, we propose to use text-to-image diffusion models to extract the general affordance knowledge due to we find such models can generate semantically valid HOI images, which demonstrate that their internal representation space is highly correlated with real-world affordance concepts. Specifically, we introduce the <span style="color: #f60505;">D</span><span style="color: #059ef6;">A</span><span style="color: #7905f6;">G</span>: a diffusion-based 3d affordance grounding framework, which leverages the frozen internal representations of the text-to-image diffusion model and unlocks affordance knowledge within the diffusion model to perform 3D affordance grounding. We further introduce an affordance block and a multi-source affordance decoder to endow 3D dense affordance prediction. Extensive experimental evaluations show that our model excels over well-established methods and exhibits open-world generalization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">2D image attention visualization  </h2>
+         <p>
+              <img src="static\figure\attention.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3"> <span style="color: #f60505;">D</span><span style="color: #059ef6;">A</span><span style="color: #7905f6;">G</span> Method </h2>
+         <p>
+              <img src="static\figure\pipeline.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              Our framework comprises two sequential components. First, a 3D multimodal large language model (3D MLLM) ingests high-level instructions and object point clouds to generate sequential affordance maps and decompose the high-level task into a sequence of sub-tasks. Second, the diffusion model takes the affordance map and the decomposed task sequence as conditions to synthesize realistic hand-object interaction sequences.    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Affordance Block</h2>
+         <p>
+              <img src="static\figure\affordanceblock.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              Given visual embeddings and text tokens, affordance block fusion them and then utilizes average pool operation to obtain the affordance embeddings.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Multi Source Affordance Decoder.</h2>
+         <p>
+              <img src="static\figure\decoder.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              Specifically, we utilize proposed fusion bolcks to fusion the CLS token, point embeddings and affordance embeddings, and the fusion features are fed into a mlp layer to obtain the affordance the mask.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Unsampled Method</h2>
+         <p>
+              <img src="static\figure\unsample.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+            </p>
+            <p>
+              We show the details of the Upsample method.Specifically, we use FPS and feature propagation to get the hierarchical point cloud features and upsample the sparse features into dense features</div>
+    </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <div class="content">
+          <h2 class="title is-3">Affordance Visualization </h2>
+          <p style="text-align: center;">
+            <img src="static\figure\visualization.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+          </p>
+          <p style="text-align: center;">
+            <img src="static\figure\sup1.png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+          </p>
+          <p style="text-align: center;">
+            <img src="static\figure\sup2png" alt="Directional Weight Score" class="blend-img-background center-image" style="max-width: 100%; height: auto;" />
+          </p>
+          <p>
+            DAG achieves more accurate results in both seen and unseen settings.        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
